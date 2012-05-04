@@ -1,4 +1,8 @@
 ListyStory::Application.routes.draw do
+  root :to => 'home#index'
+
+  match 'scrollerama' => 'home#scrollerama'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
