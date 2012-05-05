@@ -2,6 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body { background-color: #000; color: #fff; size: 14px; padding-top: 300px; height: 2000px; }
+@font-face {
+    font-family: 'ArchitectsDaughterRegular';
+    src: url('font-face/ArchitectsDaughter-webfont.eot');
+    src: url('font-face/ArchitectsDaughter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font-face/ArchitectsDaughter-webfont.woff') format('woff'),
+         url('font-face/ArchitectsDaughter-webfont.ttf') format('truetype'),
+         url('font-face/ArchitectsDaughter-webfont.svg#ArchitectsDaughterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; height: 2000px; font-family:'ArchitectsDaughterRegular', sans-serif;}
 .container { width: 1000px; margin: 0 auto; }
 #logo { margin: 0 auto; width: 500px; font-size: 24px; font-weight: bold }
