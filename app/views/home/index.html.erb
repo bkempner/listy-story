@@ -1,0 +1,64 @@
+	<div class="scrollblock" id="intro" style="height:710px;">
+    Placeholder
+	</div>
+
+	<div class="scrollblock" id="examples-transition">
+		<h2>Transitions</h2>
+		<h3 id="fade-in">Fade In</h3>
+		<h3 id="fly-in">Fly In</h3>
+		<h3 id="rotate-in">Rotate In</h3>
+		<h3 id="zoom-in">Zoom In</h3>
+		<p id="any"><small><span class="accent">&#9733;</span> Any numeric CSS property <span class="accent">&#9733;</span></small></p>
+	</div>
+
+	
+	<script>
+		$(document).ready(function() {
+			
+			// initialize the plugin, pass in the class selector for the sections of content (blocks)
+			var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
+			
+			// assign function to add behavior for onBlockChange event
+			scrollorama.onBlockChange(function() {
+				var i = scrollorama.blockIndex;
+				$('#console')
+					.css('display','block')
+					.text('onBlockChange | blockIndex:'+i+' | current block: '+scrollorama.settings.blocks.eq(i).attr('id'));
+			});
+			
+
+			
+			// animate the title letters to explode
+			//scrollorama.animate('#title',{ duration: 300, property:'zoom', end: 8 });
+			//scrollorama.animate('#author',{ duration: 10, property:'z-index', end: 0 });
+      // $('#title span').each(function() {
+      //  scrollorama.animate($(this),{ duration: 400, property:'top', end: Math.random()*120-180 });
+      //  scrollorama.animate($(this),{ duration: 300, property:'rotate', start:0, end:Math.random()*720-360 });
+      // });
+			
+			// animate some examples
+			//scrollorama.animate('#unpin',{ duration:500, property:'padding-top', start:400, pin:true });
+			scrollorama.animate('#fade-in',{ delay: 400, duration: 700, property:'opacity', start:0 });
+	
+			
+			// animate some easing examples
+			var $easing = $('#easing'),
+				$clone = $easing.clone().appendTo('#examples-easing')
+								.css({position:'relative',top:'-2.95em'})
+								.lettering();
+			$easing.css({ color: '#131420', textShadow: '0 1px 0 #363959' });
+			easing_array = [	'easeOutBounce',
+								'easeOutQuad',
+								'easeOutCubic',
+								'easeOutQuart',
+								'easeOutQuint', 
+								'easeOutExpo' 		];
+			$clone.find('span')
+				.each( function( idx, el ){
+					scrollorama.animate( $(this), {	delay:400, duration: 500, 
+													property:'top', end: 300,
+													easing: easing_array[idx] });
+				})
+			
+		});
+	</script>
