@@ -1,18 +1,21 @@
-	<div class="scrollblock" id="intro">
-    LISTY ORIGINS FIRST CLASS THE BEGINNING REQUIEM
-	</div>
-
-        <div class="scrollblock" id="intro_pane">
-          <h2>Transitions</h2>
-          <h3 id="fade-in">Fade In</h3>
-          <h3 id="fly-in">Fly In</h3>
-          <h3 id="rotate-in">Rotate In</h3>
-          <h3 id="zoom-in">Zoom In</h3>
-          <p id="any">
-            <small>
-              <span class="accent">&#9733;</span>
-                Any numeric CSS property 
-              <span class="accent">&#9733;</span>
-            </small>
-          </p>
-	</div>
+<div class="scrollblock" id="opening-pane">
+  <div class='container'>
+    <div id="logo"><%= image_tag('block1-logo.png') %></div>
+    <div class='subtitle'>Origin Tale.  Secret of the Booze.</div>
+    <div style='clear: both;'></div>
+    <div id="popout">
+      <div id="back"><%= image_tag('block1-listy-back.png')%></div>
+      <div id="front">
+        <%= image_tag('block1-listy-front.png')%>
+        <div id="cover">&nbsp;</div>
+      </div>
+      <div id="listy"><%= image_tag('block1-listy.png') %></div>
+    </div>
+    <div class='callout'>
+      <div class='content'>Scroll Down</div>
+      <%= image_tag('block1-dialog-arrow.png')%>
+    </div>
+  </div>
+  <div style='clear: both;'></div>
+  <div class="end-panel"></div>
+</div>

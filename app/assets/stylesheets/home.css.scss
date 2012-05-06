@@ -14,15 +14,17 @@
 
 }
 
-
-
 body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; height: 2000px; font-family:'ArchitectsDaughterRegular', sans-serif;}
-.container { width: 1000px; margin: 0 auto; }
-#logo { margin: 0 auto; width: 500px; font-size: 24px; font-weight: bold }
-#intro {
-  height: 700px;
-}
-
-.intro_pane {
-  height: 700px;
-}
+#opening-pane { height: 500px; margin-top: 200px; }
+#opening-pane .container { width: 1000px; margin: 0 auto; }
+#opening-pane .subtitle { font-size: 20px; font-weight: normal; margin-top: 40px; width: 600px; float: right; text-align: left; }
+#opening-page #logo { }
+#opening-pane .callout { float: right; width: 200px; margin-top: 100px; }
+#opening-pane .callout .content { font-size: 17px; font-weight: normal; background-color: #000; float: left; width: 150px; padding-top: 8px; height: 30px; margin-right: -10px; }
+#opening-pane #popout { width: 300px; float: right; margin: 100px 95px 0 0; }
+#opening-pane #popout #back { float: right; margin-right: 20px; }
+#opening-pane #popout #front { position: relative; float: right; margin-top: -55px; z-index: 2; }
+#opening-pane #popout #listy { position: relative; float: right; margin: -450px 75px 0 0; z-index: 1; }
+#opening-pane #popout #front #cover { float: right; background-color: #282929; height: 300px; width: 300px; margin-top: -20px; }
+#opening-pane .end-panel { }
+#scroll-padding { height: 3000px; }
