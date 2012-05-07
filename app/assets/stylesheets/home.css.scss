@@ -15,6 +15,7 @@
 }
 
 body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; height: 2000px; font-family:'ArchitectsDaughterRegular', sans-serif;}
+
 #opening-pane { height: 500px; margin-top: 200px; }
 #opening-pane .container { width: 1000px; margin: 0 auto; }
 #opening-pane .subtitle { font-size: 20px; font-weight: normal; color:#888; width: 590px; float: right; text-align: left; }
@@ -24,7 +25,12 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 #opening-pane #popout { width: 300px; float: right; margin: 100px 95px 0 0; }
 #opening-pane #popout #back { float: right; margin-right: 20px; }
 #opening-pane #popout #front { position: relative; float: right; margin-top: -55px; z-index: 2; }
-#opening-pane #popout #listy { position: relative; float: right; margin: -450px 75px 0 0; z-index: 1; }
-#opening-pane #popout #front #cover { float: right; background-color: #282929; height: 300px; width: 300px; margin-top: -20px; }
-#opening-pane .end-panel { }
-#scroll-padding { height: 3000px; }
+#opening-pane #popout #listy { position: relative; float: right; margin: -375px 75px 0 0; z-index: 1; }
+#opening-pane #popout #front #cover { float: right; background-color: #282929; height: 200px; width: 300px; margin-top: -20px; }
+
+#badguy-pane { padding-top: 100px; } 
+#badguy-pane .container { width: 1400px; margin: 0 auto; height: 500px; }
+#badguy-pane .cityscape-back { position: relative; z-index: 1; }
+#badguy-pane .cityscape-front { position: relative; z-index: 2; margin-top: -400px; }
+
+#the-end {  }
