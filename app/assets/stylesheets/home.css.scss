@@ -17,7 +17,7 @@
 body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; height: 2000px; font-family:'ArchitectsDaughterRegular', sans-serif;}
 
 .caption-container-header { margin: -500px auto 0 auto; width: 1400px; position: relative; z-index: 200; }
-.caption { position: relative; z-index: 99; font-size: 16px; float: left; border: 2px solid #454545; background-color: #000; padding: 10px; }
+.caption {font-family:'ArchitectsDaughterRegular', sans-serif; position: relative; z-index: 99; font-size: 16px; float: left; background-color: #000; padding: 10px; }
 
 #opening-pane { height: 500px; margin-top: 200px; }
 #opening-pane .container { width: 1000px; margin: 0 auto; }
@@ -46,8 +46,17 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 #badguy-pane .apt4 { position: relative; z-index: 4; margin: -230px 660px 0 0; }
 #badguy-pane .apt5 { position: relative; z-index: 7; margin: -200px 0 0 300px; }
 #badguy-pane #caption1 { }
-#badguy-pane #caption2 { z-index: 100; margin-left: -340px; margin-top: 50px; }
-#badguy-pane #caption3 { z-index: 100; margin-left: -600px; margin: 375px 0 0 400px; font-size: 36px; }
+#badguy-pane #caption2 { z-index: 100; margin-left: -340px; margin-top: 560px; }
+#badguy-pane #caption3 { z-index: 100; margin: 550px 0 0 50px; font-size: 25px; }
+
+
+#tech-pane {
+	padding-top: 100px;
+	background:image-url('block3-back.png') no-repeat center center;
+	img {position:absolute; top:50%; left:50%;}
+	.caption {display:none;}
+
+}
 
 #lab-pane { }
 #lab-pane .lab { }

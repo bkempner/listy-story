@@ -47,6 +47,15 @@ $(document).ready(function() {
 
   // Pane #5
   //scrollorama.animate('#panel5 .ending-panel',{ delay: 0, duration:4000, property:'padding-top', start:400, pin:true });
+  
+	// Tech Pane
+	scrollorama.animate('#tech-pane .listy1',{ delay: 250, duration: 250, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .listy2',{ delay: 500, duration: 250, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .listy3',{ delay: 750, duration: 250, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .listy4',{ delay: 1000, duration: 250, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .listy5',{ delay: 1250, duration: 250, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .listy6',{ delay: 1500, duration: 250, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .ending-panel',{ delay: 0, duration:4000, property:'padding-top', start:0, pin:true });
 			
   // // assign function to add behavior for onBlockChange event
   // scrollorama.onBlockChange(function() {
