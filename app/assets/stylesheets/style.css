@@ -11,7 +11,7 @@
 
 body {
 	background: #282929;
-	font-family: Georgia, Times New Roman, Times, serif;
+	font-family: sans-serif;
 	font-weight: bold;
 	font-size: 30px;
 	text-align: center;
@@ -21,7 +21,7 @@ h1 {
 	font-size: 120px;
 	font-weight: normal;
 	margin: 0;
-	font-family: 'Bowlby One SC',"Arial Black",Gadget,sans-serif;
+	font-family: 'Bowlby One SC',sans-serif;
 	text-transform: uppercase;
 	color: #FFB000;
 	text-shadow: 0 2px 1px #000;
@@ -34,7 +34,7 @@ h2 {
 	margin: 0;
 	text-shadow: 0 2px 1px #000;
 	color: #FFB000;
-	font-family: 'Bowlby One SC',"Arial Black",Gadget,sans-serif;
+	font-family: 'Bowlby One SC',sans-serif;
 	text-transform: uppercase;
 }
 
@@ -44,7 +44,7 @@ h3 {
 	margin: 0;
 	color: #D92B00;
 	text-shadow: 0 2px 1px #000;
-	font-family: 'Bowlby One SC',"Arial Black",Gadget,sans-serif;
+	font-family: 'Bowlby One SC',sans-serif;
 	text-transform: uppercase;
 }
 

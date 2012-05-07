@@ -17,10 +17,10 @@
 body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; height: 2000px; font-family:'ArchitectsDaughterRegular', sans-serif;}
 #opening-pane { height: 500px; margin-top: 200px; }
 #opening-pane .container { width: 1000px; margin: 0 auto; }
-#opening-pane .subtitle { font-size: 20px; font-weight: normal; margin-top: 40px; width: 600px; float: right; text-align: left; }
+#opening-pane .subtitle { font-size: 20px; font-weight: normal; color:#888; width: 590px; float: right; text-align: left; }
 #opening-page #logo { }
-#opening-pane .callout { float: right; width: 200px; margin-top: 100px; }
-#opening-pane .callout .content { font-size: 17px; font-weight: normal; background-color: #000; float: left; width: 150px; padding-top: 8px; height: 30px; margin-right: -10px; }
+#opening-pane .callout { float: right; width: 170px; margin-top: 100px; }
+#opening-pane .callout .content {line-height:22px; font-size: 17px; font-weight: normal; background-color: #000; float: left; width: 120px; padding-top: 8px; height: 30px; margin-right: -10px; }
 #opening-pane #popout { width: 300px; float: right; margin: 100px 95px 0 0; }
 #opening-pane #popout #back { float: right; margin-right: 20px; }
 #opening-pane #popout #front { position: relative; float: right; margin-top: -55px; z-index: 2; }
