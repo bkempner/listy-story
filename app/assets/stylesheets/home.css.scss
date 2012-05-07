@@ -154,6 +154,10 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 #ending-action-pane {
   margin: 200px 0 0 0;
 }
-#credits-pane {
-  margin: 600px 0 0 0;
+//this one caused an interesting looping bug in scrollorama
+//#credits-pane {
+//  margin: 600px 0 0 0;
+//}
+#ending-credits.credits {
+  padding-top: 50px;
 }
