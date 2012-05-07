@@ -124,3 +124,36 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 #cliffhanger .canlisty1 { font-size: 48px; margin-bottom: 100px; color: #2896DB; }
 #cliffhanger .canlisty2 { font-size: 48px; margin-bottom: 100px; color: #2896DB; }
 #cliffhanger .canlisty3 { font-size: 72px; margin-bottom: 200px; color: #2896DB; }
+
+//teaser pane where listing and slumlord are flying to each other
+#ending-action-pane .foreground {
+  position: relative;
+  margin: -200px 0 0 0;
+}
+#ending-action-pane .city {
+  margin: 0 0 0 1px;
+}
+#ending-action-pane .cityscape-back {
+  position: relative;
+  margin: -150px 0 0 0;
+  width: 100px;
+}
+#ending-action-pane #city.cityscape-back {
+  position: relative;
+  margin: -410px 0 0 2600px;
+  width: 100px;
+}
+#ending-action-pane #listy {
+  position: relative;
+  margin: -50px 0 0 0;
+}
+#ending-action-pane #listy.fly-out{
+  position: relative;
+  margin: -175px 0 0 0;
+}
+#ending-action-pane {
+  margin: 200px 0 0 0;
+}
+#credits-pane {
+  margin: 600px 0 0 0;
+}

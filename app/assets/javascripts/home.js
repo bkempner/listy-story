@@ -82,6 +82,72 @@ $(document).ready(function() {
 	scrollorama.animate('#lolcat .itwasyou',{ delay: 300, duration: 150, start: 0, property: 'opacity' });
   scrollorama.animate('#lolcat .ending-panel',{ delay: 0, duration:3000, property:'padding-top', start:400, pin:true });
 			
+// Ending teaser
+scrollorama.animate('#ending-action-pane .cityscape-back',
+                    {
+                      delay: 800,
+                      duration: 1900,
+                      property: 'right',
+                      start: 0,
+                      end: 1380
+                    });
+scrollorama.animate('#ending-action-pane #city.cityscape-back',
+                    {
+                      delay: 800,
+                      duration: 1900,
+                      property: 'right',
+                      start: 1400,
+                      end: 2760
+                    });
+scrollorama.animate('#ending-action-pane .cityscape-front',
+                    {
+                      delay: 500,
+                      duration: 1900,
+                      property: 'right',
+                      start: 0,
+                      end: 100
+                    });
+scrollorama.animate('#ending-action-pane .fly-in',
+                    {
+                      delay: 600,
+                      duration: 1050,
+                      property: 'left',
+                      start: -1000,
+                      end: 0
+                    });
+scrollorama.animate('#ending-action-pane .fly-in',
+                    {
+                      delay: 1600, 
+                      duration: 0, 
+                      property:'opacity', 
+                      start:100,
+                      end: 0
+                    });
+scrollorama.animate('#ending-action-pane #listy.fly-out',
+                    {
+                      delay: 2200,
+                      duration: 1000,
+                      property: 'left',
+                      start: 0,
+                      end: 1400
+                    });
+scrollorama.animate('#ending-action-pane #listy.fly-out',
+                    {
+                      delay: 1600, 
+                      duration: 1000, 
+                      property:'opacity', 
+                      start: 0,
+                      end: 100
+                    });
+scrollorama.animate('#ending-action-pane .ending-panel', 
+                    { 
+                      delay: 0,
+                      duration: 1000,
+                      property: 'padding-top',
+                      start: 0,
+                      pin: true
+                    });
+
   // // assign function to add behavior for onBlockChange event
   // scrollorama.onBlockChange(function() {
   //   console.log('hi');
