@@ -33,9 +33,14 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 #badguy-pane .cityscape-back { position: relative; z-index: 1; }
 #badguy-pane .cityscape-front { position: relative; z-index: 2; margin-top: -400px; }
 #badguy-pane .dr-slum { position: relative; z-index: 3; margin: -350px 500px 0 0; }
-#badguy-pane .frog-1 { position: relative; z-index: 4; margin: -150px 800px 0 0; }
-#badguy-pane .frog-2 { position: relative; z-index: 5; margin: -100px 200px 0 0; }
-#badguy-pane .frog-3 { position: relative; z-index: 6; margin: -125px 0 0 0; }
-#badguy-pane .frog-king { position: relative; z-index: 6; margin: -300px 0 0 475px; }
+#badguy-pane .frog-1 { position: relative; z-index: 9; margin: -150px 800px 0 0; }
+#badguy-pane .frog-2 { position: relative; z-index: 10; margin: -100px 200px 0 0; }
+#badguy-pane .frog-3 { position: relative; z-index: 11; margin: -125px 0 0 0; }
+#badguy-pane .frog-king { position: relative; z-index: 12; margin: -300px 0 0 475px; }
+#badguy-pane .apt1 { position: relative; z-index: 6; margin: -300px 300px 0 0; }
+#badguy-pane .apt2 { position: relative; z-index: 5; margin: -300px 0 0 0; }
+#badguy-pane .apt3 { position: relative; z-index: 8; margin: -275px 0 0 600px; }
+#badguy-pane .apt4 { position: relative; z-index: 4; margin: -230px 660px 0 0; }
+#badguy-pane .apt5 { position: relative; z-index: 7; margin: -200px 0 0 300px; }
 
 #the-end {  }

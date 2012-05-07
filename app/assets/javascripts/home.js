@@ -26,7 +26,16 @@ $(document).ready(function() {
   // Badguy Pane
   scrollorama.animate('#badguy-pane .cityscape-back',{ delay: 900, duration: 700, start:0, property: 'opacity' });
   scrollorama.animate('#badguy-pane .cityscape-front',{ delay: 900, duration: 500, start:200, property: 'padding-top' });
-  scrollorama.animate('#badguy-pane .ending-panel',{ delay: 0, duration:2500, property:'padding-top', start:0, pin:true });
+  scrollorama.animate('#badguy-pane .dr-slum',{ delay: 2000, duration: 100, start:0, end: 400, property: 'margin-left' });
+  scrollorama.animate('#badguy-pane .dr-slum',{ delay: 2000, duration: 100, start:-350, end: -550, property: 'margin-top' });
+  scrollorama.animate('#badguy-pane .frog-1',{ delay: 2000, duration: 100, start:-150, end: 50, property: 'margin-top' });
+  scrollorama.animate('#badguy-pane .apt1',{ delay: 2250, duration: 100, start:0, property: 'opacity' });
+  scrollorama.animate('#badguy-pane .apt2',{ delay: 2250, duration: 100, start:0, property: 'opacity' });
+  scrollorama.animate('#badguy-pane .apt3',{ delay: 2250, duration: 100, start:0, property: 'opacity' });
+  scrollorama.animate('#badguy-pane .apt4',{ delay: 2250, duration: 100, start:0, property: 'opacity' });
+  scrollorama.animate('#badguy-pane .apt5',{ delay: 2250, duration: 100, start:0, property: 'opacity' });
+  //scrollorama.animate('#badguy-pane .dr-slum',{ delay: 2000, duration: 500, start:200, property: 'margin-right' });
+  scrollorama.animate('#badguy-pane .ending-panel',{ delay: 0, duration:3500, property:'padding-top', start:0, pin:true });
 
   // Pane #3
   scrollorama.animate('#panel3 .ending-panel',{ delay: 0, duration:2000, property:'padding-top', start:0, pin:true });
