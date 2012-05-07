@@ -56,7 +56,12 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 	margin-top:100px;
 	position:relative;
 	height: 500px;
-	.container {width:900px; margin:0 auto;}
+	.container {
+        width: 600px;
+        height: 600px;
+        position: relative;
+        margin: 0 auto; 
+    }
 
 	img {
 		
@@ -75,23 +80,23 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 	
 	.front-text {
 		z-index:35;
-		&#front-text1 {top:260px; left:630px;}
-		&#front-text2 {top:280px; left:400px; padding-left:0; padding-right:30px; background-position:bottom right;}
-		&#front-text3 {top:307px; left:607px;}
+		&#front-text1 {top:260px; left:330px;}
+		&#front-text2 {top:280px; left:100px; padding-left:0; padding-right:30px; background-position:bottom right;}
+		&#front-text3 {top:307px; left:307px;}
 	}
 	
 	.side-text {
 		z-index:75;
-		&#side-text1 {top:240px; left:360px; padding-left:0; padding-right:30px; background-position:bottom right;}
-		&#side-text2 {top:257px; left:570px; }
-		&#side-text3 {top:340px; left:570px;}
+		&#side-text1 {top:240px; left:60px; padding-left:0; padding-right:30px; background-position:bottom right;}
+		&#side-text2 {top:257px; left:270px; }
+		&#side-text3 {top:340px; left:270px;}
 	}
 	
 	.back-text {
 		z-index:115;
-		&#back-text1 {top:220px; left:635px;}
-		&#back-text2 {top:277px; left:650px; }
-		&#back-text3 {top:330px; left:620px;}
+		&#back-text1 {top:220px; left:335px;}
+		&#back-text2 {top:277px; left:350px; }
+		&#back-text3 {top:330px; left:320px;}
 	}
 
 }
