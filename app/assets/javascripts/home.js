@@ -85,24 +85,24 @@ $(document).ready(function() {
 // Ending teaser
 scrollorama.animate('#ending-action-pane .cityscape-back',
                     {
-                      delay: 800,
-                      duration: 1900,
+                      delay: 500,
+                      duration: 2100,
                       property: 'right',
                       start: 0,
                       end: 1380
                     });
 scrollorama.animate('#ending-action-pane #city.cityscape-back',
                     {
-                      delay: 800,
-                      duration: 1900,
+                      delay: 500,
+                      duration: 2100,
                       property: 'right',
                       start: 1400,
                       end: 2760
                     });
 scrollorama.animate('#ending-action-pane .cityscape-front',
                     {
-                      delay: 500,
-                      duration: 1900,
+                      delay: 400,
+                      duration: 2400,
                       property: 'right',
                       start: 0,
                       end: 100
@@ -139,33 +139,24 @@ scrollorama.animate('#ending-action-pane #listy.fly-out',
                       start: 0,
                       end: 100
                     });
-scrollorama.animate('#ending-action-pane .ending-panel', 
-                    { 
-                      delay: 0,
-                      duration: 1000,
-                      property: 'padding-top',
-                      start: 0,
-                      pin: true
-                    });
-scrollorama.animate('#ending-credits .dr-slum', 
+	scrollorama.animate('#end-pane .caption2',{ delay: 300, duration: 150, start: 0, property: 'opacity' });
+	scrollorama.animate('#end-pane .caption3',{ delay: 600, duration: 150, start: 0, property: 'opacity' });
+	scrollorama.animate('#end-pane .ending-panel',{ delay: 0, duration:2000, property:'padding-top', start:0, pin:true });
+
+scrollorama.animate('#credits-pane #ending-credits .dr-slum', 
                     { 
                       delay: 1200,
                       duration: 1000,
                       property: 'zoom',
-                      start: 1,
-                      end: 20
+                      end: 10
                     });
-scrollorama.animate('#ending-credits .dr-slum', 
+scrollorama.animate('#credits-pane #ending-credits .dr-slum', 
                     {
-                      delay: 4000, 
+                      delay: 2200, 
                       duration: 1000, 
                       property:'opacity', 
                       start: 1,
                       end: 100,
                       pin: true
                     });
-  // // assign function to add behavior for onBlockChange event
-  // scrollorama.onBlockChange(function() {
-  //   console.log('hi');
-  // });
 });
