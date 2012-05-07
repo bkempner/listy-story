@@ -147,7 +147,23 @@ scrollorama.animate('#ending-action-pane .ending-panel',
                       start: 0,
                       pin: true
                     });
-
+scrollorama.animate('#ending-credits .dr-slum', 
+                    { 
+                      delay: 1200,
+                      duration: 1000,
+                      property: 'zoom',
+                      start: 1,
+                      end: 20
+                    });
+scrollorama.animate('#ending-credits .dr-slum', 
+                    {
+                      delay: 4000, 
+                      duration: 1000, 
+                      property:'opacity', 
+                      start: 1,
+                      end: 100,
+                      pin: true
+                    });
   // // assign function to add behavior for onBlockChange event
   // scrollorama.onBlockChange(function() {
   //   console.log('hi');
