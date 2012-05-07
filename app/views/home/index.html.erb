@@ -84,15 +84,17 @@
   <h3 class='canlisty2'>And his pad-mapping minions?!?</h3>
   <h3 class='canlisty3'>Find out next time!</h3>
 
-  <!-- teaser action -->
-  <div id='ending-action-pane'>
-    <div class='listing-flying' id='listing-flying'>
-      <div class="cityscape-front city"><%= image_tag('skyline-front.png')%></div>
-      <div class='foreground'>
-        <div id='listy' class='fly-in'><%= image_tag('block1-listy.png') %></div>
-        <div id='listy' class='fly-out'><%= image_tag('block1-listy.png') %></div>
-        <div class="cityscape-back city"><%= image_tag('skyline-back.png')%></div>
-        <div id='city' class="cityscape-back city"><%= image_tag('skyline-back.png')%></div>
+  <div id="end-pane">
+    <!-- teaser action -->
+    <div id='ending-action-pane'>
+      <div class='listing-flying' id='listing-flying'>
+        <div class="cityscape-front city"><%= image_tag('skyline-front.png')%></div>
+        <div class='foreground'>
+          <div id='listy' class='fly-in'><%= image_tag('block1-listy.png') %></div>
+          <div id='listy' class='fly-out'><%= image_tag('block1-listy.png') %></div>
+          <div class="cityscape-back city"><%= image_tag('skyline-back.png')%></div>
+          <div id='city' class="cityscape-back city"><%= image_tag('skyline-back.png')%></div>
+        </div>
       </div>
     </div>
   </div>
@@ -100,34 +102,12 @@
   <div class="ending-panel"></div>
 </div>
 
-<div class="scrollblock" id="finale">
-  <div class="container">
-    <div class="caption caption-end">The End</div>
-  </div>
-  <div style='clear: both;'></div>
-  <div class="ending-panel"></div>
-</div>
-
-<!-- ending pane with teasers -->
-<div class="scrollblock" id="credits-pane">
-  <div class='credits' id='ending-credits'>
-    <div class="dr-slum"><%= image_tag('dr-slumlord.png')%></div>
-  </div>
-  <div style='clear: both;'/></div>
-  <div class="ending-panel"/></div>
-</div>
-
-<div class="scrollblock" id="finale">
-	<div class="container">
-		<div class="caption caption-end">The End</div>
-	</div>
-</div>
 
 <div class="scrollblock" id="lolcat">
   <div class="itwasyou"><%= image_tag('itwasyou.gif', :height => 500)%></div>
 
   <div style='clear: both;'></div>
+  <div class="ending-panel"></div>
 </div>
-
 <div class="spacer"></div>
 
