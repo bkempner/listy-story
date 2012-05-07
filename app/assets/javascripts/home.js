@@ -50,6 +50,7 @@ $(document).ready(function() {
   
 	// Tech Pane
 	scrollorama.animate('#tech-pane .listy1',{ delay: 250, duration: 250, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .listy1',{ delay: 250, duration: 250, start: 0, property: 'opacity' });
 	scrollorama.animate('#tech-pane .listy2',{ delay: 500, duration: 250, start: 0, property: 'opacity' });
 	scrollorama.animate('#tech-pane .listy3',{ delay: 750, duration: 250, start: 0, property: 'opacity' });
 	scrollorama.animate('#tech-pane .listy4',{ delay: 1000, duration: 250, start: 0, property: 'opacity' });
