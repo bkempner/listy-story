@@ -64,6 +64,12 @@ $(document).ready(function() {
 	scrollorama.animate('#tech-pane .background img',{ delay: 6000, duration: 10, end: 100, property: 'z-index' });
 	scrollorama.animate('#tech-pane .listy6',{ delay: 6000, duration: 150, start: 0, end:1, property: 'opacity' });
 	scrollorama.animate('#tech-pane .ending-panel',{ delay: 0, duration:7000, property:'padding-top', start:0, pin:true });
+	
+	// end pane
+	//scrollorama.animate('#end-pane .caption1',{ delay: 500, duration: 150, start: 0, property: 'opacity' });
+	scrollorama.animate('#end-pane .caption2',{ delay: 300, duration: 150, start: 0, property: 'opacity' });
+	scrollorama.animate('#end-pane .caption3',{ delay: 600, duration: 150, start: 0, property: 'opacity' });
+	scrollorama.animate('#end-pane .ending-panel',{ delay: 0, duration:2000, property:'padding-top', start:0, pin:true });
 			
   // // assign function to add behavior for onBlockChange event
   // scrollorama.onBlockChange(function() {
