@@ -16,6 +16,9 @@
 
 body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; height: 2000px; font-family:'ArchitectsDaughterRegular', sans-serif;}
 
+.caption-container-header { margin: -500px auto 0 auto; width: 1400px; position: relative; z-index: 200; }
+.caption { position: relative; z-index: 99; font-size: 16px; float: left; border: 2px solid #454545; background-color: #000; padding: 10px; }
+
 #opening-pane { height: 500px; margin-top: 200px; }
 #opening-pane .container { width: 1000px; margin: 0 auto; }
 #opening-pane .subtitle { font-size: 20px; font-weight: normal; color:#888; width: 590px; float: right; text-align: left; }
@@ -42,5 +45,8 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 #badguy-pane .apt3 { position: relative; z-index: 8; margin: -275px 0 0 600px; }
 #badguy-pane .apt4 { position: relative; z-index: 4; margin: -230px 660px 0 0; }
 #badguy-pane .apt5 { position: relative; z-index: 7; margin: -200px 0 0 300px; }
+#badguy-pane #caption1 { }
+#badguy-pane #caption2 { z-index: 100; margin-left: -370px; margin-top: 50px; }
+#badguy-pane #caption3 { z-index: 100; margin-left: -600px; margin: 375px 0 0 350px; font-size: 36px; }
 
 #the-end {  }
