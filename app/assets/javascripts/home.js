@@ -38,15 +38,15 @@ $(document).ready(function() {
   scrollorama.animate('#badguy-pane .apt3',{ delay: 2250, duration: 250, start:0, property: 'opacity' });
   scrollorama.animate('#badguy-pane .apt4',{ delay: 2750, duration: 250, start:0, property: 'opacity' });
   scrollorama.animate('#badguy-pane .apt5',{ delay: 3000, duration: 250, start:0, property: 'opacity' });
-  //scrollorama.animate('#badguy-pane .caption3',{ delay: 3000, duration: 250, start:720, property: 'rotate' });
-  //scrollorama.animate('#badguy-pane .dr-slum',{ delay: 2000, duration: 500, start:200, property: 'margin-right' });
   scrollorama.animate('#badguy-pane .ending-panel',{ delay: 0, duration:4000, property:'padding-top', start:0, pin:true });
 
-  // Pane #3
-  scrollorama.animate('#panel3 .ending-panel',{ delay: 0, duration:2000, property:'padding-top', start:0, pin:true });
+  // Lab Pane
+  scrollorama.animate('#lab-pane .lab',{ delay: 500, duration:1500, property:'opacity', start:0 });
+  scrollorama.animate('#lab-pane .lab-on',{ delay: 3000, duration:100, property:'opacity', start:0 });
+  scrollorama.animate('#lab-pane .ending-panel',{ delay: 0, duration:3700, property:'padding-top', start:400, pin:true });
 
-  // Pane #4
-  scrollorama.animate('#panel4 .ending-panel',{ delay: 0, duration:2000, property:'padding-top', start:0, pin:true });
+  // Pane #5
+  //scrollorama.animate('#panel5 .ending-panel',{ delay: 0, duration:4000, property:'padding-top', start:400, pin:true });
 			
   // // assign function to add behavior for onBlockChange event
   // scrollorama.onBlockChange(function() {
