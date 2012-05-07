@@ -32,5 +32,10 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 #badguy-pane .container { width: 1400px; margin: 0 auto; height: 500px; }
 #badguy-pane .cityscape-back { position: relative; z-index: 1; }
 #badguy-pane .cityscape-front { position: relative; z-index: 2; margin-top: -400px; }
+#badguy-pane .dr-slum { position: relative; z-index: 3; margin: -350px 500px 0 0; }
+#badguy-pane .frog-1 { position: relative; z-index: 4; margin: -150px 800px 0 0; }
+#badguy-pane .frog-2 { position: relative; z-index: 5; margin: -100px 200px 0 0; }
+#badguy-pane .frog-3 { position: relative; z-index: 6; margin: -125px 0 0 0; }
+#badguy-pane .frog-king { position: relative; z-index: 6; margin: -300px 0 0 475px; }
 
 #the-end {  }

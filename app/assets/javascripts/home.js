@@ -24,9 +24,9 @@ $(document).ready(function() {
   scrollorama.animate('#opening-pane .ending-panel',{ delay: 0, duration: 1200, start:0, property: 'padding-top', pin: true });
 
   // Badguy Pane
-  scrollorama.animate('#badguy-pane .cityscape-back',{ delay: 900, duration: 500, start:0, property: 'opacity' });
-  scrollorama.animate('#badguy-pane .cityscape-front',{ delay: 900, duration: 500, start:100, property: 'padding-top' });
-  scrollorama.animate('#badguy-pane .ending-panel',{ delay: 0, duration:1500, property:'padding-top', start:0, pin:true });
+  scrollorama.animate('#badguy-pane .cityscape-back',{ delay: 900, duration: 700, start:0, property: 'opacity' });
+  scrollorama.animate('#badguy-pane .cityscape-front',{ delay: 900, duration: 500, start:200, property: 'padding-top' });
+  scrollorama.animate('#badguy-pane .ending-panel',{ delay: 0, duration:2500, property:'padding-top', start:0, pin:true });
 
   // Pane #3
   scrollorama.animate('#panel3 .ending-panel',{ delay: 0, duration:2000, property:'padding-top', start:0, pin:true });
