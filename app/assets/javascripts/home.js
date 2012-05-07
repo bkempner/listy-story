@@ -67,9 +67,16 @@ $(document).ready(function() {
 	
 	// end pane
 	//scrollorama.animate('#end-pane .caption1',{ delay: 500, duration: 150, start: 0, property: 'opacity' });
-	scrollorama.animate('#end-pane .caption2',{ delay: 300, duration: 150, start: 0, property: 'opacity' });
-	scrollorama.animate('#end-pane .caption3',{ delay: 600, duration: 150, start: 0, property: 'opacity' });
-	scrollorama.animate('#end-pane .ending-panel',{ delay: 0, duration:2000, property:'padding-top', start:0, pin:true });
+	//scrollorama.animate('#end-pane .caption2',{ delay: 300, duration: 150, start: 0, property: 'opacity' });
+	//scrollorama.animate('#end-pane .caption3',{ delay: 600, duration: 150, start: 0, property: 'opacity' });
+	//scrollorama.animate('#end-pane .ending-panel',{ delay: 0, duration:2000, property:'padding-top', start:0, pin:true });
+
+	scrollorama.animate('#cliffhanger .canlisty1',{ delay: 750, duration: 300, start: 0, property: 'opacity' });
+	scrollorama.animate('#cliffhanger .canlisty1',{ delay: 750, duration: 300, start: 720, property: 'rotate' });
+	scrollorama.animate('#cliffhanger .canlisty2',{ delay: 1500, duration: 300, start: -1400, property: 'left' });
+	scrollorama.animate('#cliffhanger .canlisty3',{ delay: 3000, duration: 100, start: 0, property: 'opacity' });
+	scrollorama.animate('#cliffhanger .canlisty3',{ delay: 3000, duration: 1000, start: 8, property: 'zoom' });
+  scrollorama.animate('#cliffhanger .ending-panel',{ delay: 0, duration:5000, property:'padding-top', start:400, pin:true });
 
 	scrollorama.animate('#lolcat .itwasyou',{ delay: 300, duration: 150, start: 0, property: 'opacity' });
   scrollorama.animate('#lolcat .ending-panel',{ delay: 0, duration:3000, property:'padding-top', start:400, pin:true });
