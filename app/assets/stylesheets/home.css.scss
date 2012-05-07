@@ -52,9 +52,45 @@ body { background-color: #282929; color: #fff; size: 14px; padding-top: 300px; h
 
 #tech-pane {
 	padding-top: 100px;
-	background:image-url('block3-back.png') no-repeat center center;
-	img {position:absolute; top:50%; left:50%;}
-	.caption {display:none;}
+	position:relative;
+	height: 500px;
+	.container {width:900px; margin:0 auto;}
+
+	img {
+		
+	}
+	.text {
+		background:image-url('block3-arrows.png') no-repeat top left; position:absolute; top:0; left:-9999; font-size:13px; padding-left:30px;
+		span {display:block; background:#000; color:#666; height:30px; line-height:30px; padding:0 10px;}
+	}
+	.background img {position:absolute; background:#282929; top:50%; left:50%; margin-left:-360px; margin-top:-260px; padding:100px 200px;}
+	.listy1 {z-index:10; position:absolute; top:50%; left:50%; margin-left:-84px; margin-top:-80px;}
+	.listy2 {z-index:30; position:absolute; top:50%; left:50%; margin-left:-84px; margin-top:-80px;}
+	.listy3 {z-index:50; position:absolute; top:50%; left:50%; margin-left:-84px; margin-top:-80px;}
+	.listy4 {z-index:70; position:absolute; top:50%; left:50%; margin-left:-84px; margin-top:-80px;}
+	.listy5 {z-index:90; position:absolute; top:50%; left:50%; margin-left:-84px; margin-top:-80px;}
+	.listy6 {z-index:110; position:absolute; top:50%; left:50%; margin-left:-84px; margin-top:-80px;}
+	
+	.front-text {
+		z-index:35;
+		&#front-text1 {top:260px; left:630px;}
+		&#front-text2 {top:280px; left:400px; padding-left:0; padding-right:30px; background-position:bottom right;}
+		&#front-text3 {top:307px; left:607px;}
+	}
+	
+	.side-text {
+		z-index:75;
+		&#side-text1 {top:240px; left:360px; padding-left:0; padding-right:30px; background-position:bottom right;}
+		&#side-text2 {top:257px; left:570px; }
+		&#side-text3 {top:340px; left:570px;}
+	}
+	
+	.back-text {
+		z-index:115;
+		&#back-text1 {top:220px; left:635px;}
+		&#back-text2 {top:277px; left:650px; }
+		&#back-text3 {top:330px; left:620px;}
+	}
 
 }
 

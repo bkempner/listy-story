@@ -49,14 +49,21 @@ $(document).ready(function() {
   //scrollorama.animate('#panel5 .ending-panel',{ delay: 0, duration:4000, property:'padding-top', start:400, pin:true });
   
 	// Tech Pane
-	scrollorama.animate('#tech-pane .listy1',{ delay: 250, duration: 250, start: 0, property: 'opacity' });
-	scrollorama.animate('#tech-pane .listy1',{ delay: 250, duration: 250, start: 0, property: 'opacity' });
-	scrollorama.animate('#tech-pane .listy2',{ delay: 500, duration: 250, start: 0, property: 'opacity' });
-	scrollorama.animate('#tech-pane .listy3',{ delay: 750, duration: 250, start: 0, property: 'opacity' });
-	scrollorama.animate('#tech-pane .listy4',{ delay: 1000, duration: 250, start: 0, property: 'opacity' });
-	scrollorama.animate('#tech-pane .listy5',{ delay: 1250, duration: 250, start: 0, property: 'opacity' });
-	scrollorama.animate('#tech-pane .listy6',{ delay: 1500, duration: 250, start: 0, property: 'opacity' });
-	scrollorama.animate('#tech-pane .ending-panel',{ delay: 0, duration:4000, property:'padding-top', start:0, pin:true });
+	scrollorama.animate('#tech-pane .background img',{ delay: 0, duration: 10, end: 1, property: 'z-index' });
+	scrollorama.animate('#tech-pane .listy1',{ delay: 500, duration: 150, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .background img',{ delay: 2000, duration: 10, end: 20, property: 'z-index' });
+	scrollorama.animate('#tech-pane .listy2',{ delay: 2000, duration: 150, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .side-text',{ delay: 3000, duration: 10, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .background img',{ delay: 3000, duration: 10, end: 40, property: 'z-index' });
+	scrollorama.animate('#tech-pane .listy3',{ delay: 3000, duration: 150, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .background img',{ delay: 4000, duration: 10, end: 60, property: 'z-index' });
+	scrollorama.animate('#tech-pane .listy4',{ delay: 4000, duration: 150, start: 0, end:1, property: 'opacity' });
+	scrollorama.animate('#tech-pane .background img',{ delay: 5000, duration: 10, end: 80, property: 'z-index' });
+	scrollorama.animate('#tech-pane .back-text',{ delay: 5000, duration: 10, start: 0, property: 'opacity' });
+	scrollorama.animate('#tech-pane .listy5',{ delay: 5000, duration: 150, start: 0, end:1, property: 'opacity' });
+	scrollorama.animate('#tech-pane .background img',{ delay: 6000, duration: 10, end: 100, property: 'z-index' });
+	scrollorama.animate('#tech-pane .listy6',{ delay: 6000, duration: 150, start: 0, end:1, property: 'opacity' });
+	scrollorama.animate('#tech-pane .ending-panel',{ delay: 0, duration:7000, property:'padding-top', start:0, pin:true });
 			
   // // assign function to add behavior for onBlockChange event
   // scrollorama.onBlockChange(function() {
