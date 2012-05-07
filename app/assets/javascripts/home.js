@@ -38,6 +38,7 @@ $(document).ready(function() {
   scrollorama.animate('#badguy-pane .apt3',{ delay: 2250, duration: 250, start:0, property: 'opacity' });
   scrollorama.animate('#badguy-pane .apt4',{ delay: 2750, duration: 250, start:0, property: 'opacity' });
   scrollorama.animate('#badguy-pane .apt5',{ delay: 3000, duration: 250, start:0, property: 'opacity' });
+  scrollorama.animate('#badguy-pane .heart-cl',{ delay: 3000, duration: 250, start:0, property: 'opacity' });
   scrollorama.animate('#badguy-pane .ending-panel',{ delay: 0, duration:4000, property:'padding-top', start:0, pin:true });
 
   // Lab Pane
