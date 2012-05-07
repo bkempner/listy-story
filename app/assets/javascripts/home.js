@@ -70,6 +70,9 @@ $(document).ready(function() {
 	scrollorama.animate('#end-pane .caption2',{ delay: 300, duration: 150, start: 0, property: 'opacity' });
 	scrollorama.animate('#end-pane .caption3',{ delay: 600, duration: 150, start: 0, property: 'opacity' });
 	scrollorama.animate('#end-pane .ending-panel',{ delay: 0, duration:2000, property:'padding-top', start:0, pin:true });
+
+	scrollorama.animate('#lolcat .itwasyou',{ delay: 300, duration: 150, start: 0, property: 'opacity' });
+  scrollorama.animate('#lolcat .ending-panel',{ delay: 0, duration:3000, property:'padding-top', start:400, pin:true });
 			
   // // assign function to add behavior for onBlockChange event
   // scrollorama.onBlockChange(function() {
